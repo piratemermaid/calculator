@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+#calculator {
+  width 300px;
+  background: #E9F0F0;
+  margin: none;
+  padding-bottom: 50px;
+}
+
+@media screen and (min-width: 64em) {
+  #calculator {
+    position: absolute;    
+    width: 400px;
+    height: 500px;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px; /* half of the width  */
+    margin-top: -250px; /* half of the height */
+    padding-bottom: none;
+  }
+
+  body {
+    padding: 100px;
+  }
+}
+
+button {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  background: #ACDFE0;
+  border: none;
+}
+
+button:hover {
+  background: #A0D3D4;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+button:active {
+  background: yellow;
+  -webkit-transition-duration: 0.6s; /* Safari */
+  transition-duration: 0.6s;
+}
+
+#clear {
+  width: 95px;
+}
+
+#answer {
+  height: 40px;
+  text-align: center;
+  padding: 50px 0 0 0;
+  font-size: 40px;
+}
