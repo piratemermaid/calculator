@@ -1,5 +1,3 @@
-console.log('App started');
-
 var entries = [], answer;
 
 $('button').click(function() {
@@ -23,7 +21,6 @@ $('#equals').click(function() {
   var stringEntries = document.getElementById('answer').textContent;
   stringEntries = stringEntries.replace('--', '+');
   answer = eval(stringEntries);
-  console.log(answer);
   if(answer === Infinity || answer === -Infinity) {
     document.getElementById('answer').textContent = 'Cannot divide by 0';
   }
