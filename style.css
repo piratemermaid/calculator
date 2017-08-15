@@ -9,6 +9,7 @@ body {
   background: #E9F0F0;
   margin: none;
   padding-bottom: 50px;
+  border-radius: 10px;
 }
 
 @media screen and (min-width: 64em) {
@@ -35,6 +36,7 @@ button {
   height: 40px;
   background: #ACDFE0;
   border: none;
+  border-radius: 5px;
 }
 
 button:hover {
@@ -51,6 +53,7 @@ button:active {
 
 #clear {
   width: 95px;
+  border-radius: 5px;
 }
 
 #answer {
