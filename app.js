@@ -16,6 +16,7 @@ $('button').click(function() {
 
 $('#clear').click(function() {
   entries = [];
+  document.getElementById('answer').textContent = '0';
 })
 
 $('#equals').click(function() {
