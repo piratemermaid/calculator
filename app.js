@@ -4,8 +4,6 @@ var entries = [];
 
 $('button').click(function() {
   entries.push(this.value);
-  entryString = entries.toString();
-  entryString = entryString.replace(',', '')
   document.getElementById('answer').textContent = entries.join('');
 })
 
@@ -15,5 +13,8 @@ $('#clear').click(function() {
 })
 
 $('#equals').click(function() {
-  document.getElementById('answer').textContent = 'answer';
+  var stringEntries = document.getElementById('answer').textContent;
+  console.log(eval(stringEntries));
+  document.getElementById('answer').textContent = eval(stringEntries);
+  entries = [];
 })
