@@ -2,11 +2,12 @@ body {
   text-align: center;
   font-size: 50px;
   font-family: 'Droid Sans', sans-serif;
+  background: #3B3B3B;
 }
 
 #calculator {
   width 300px;
-  background: #E9F0F0;
+  background: #145E6E;
   margin: none;
   padding-bottom: 50px;
   border-radius: 10px;
@@ -34,21 +35,23 @@ button {
   font-size: 20px;
   width: 40px;
   height: 40px;
-  background: #ACDFE0;
+  background: #25344C;
+  color: #94A2B8;
   border: none;
   border-radius: 5px;
 }
 
 button:hover {
-  background: #A0D3D4;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
+  background: #94A2B8;
+  color: #25344C;
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
 }
 
 button:active {
-  background: yellow;
-  -webkit-transition-duration: 0.6s; /* Safari */
-  transition-duration: 0.6s;
+  background: #E8E8B5;
+  -webkit-transition-duration: 0.1s; /* Safari */
+  transition-duration: 0.1s;
 }
 
 #clear {
@@ -61,4 +64,5 @@ button:active {
   text-align: center;
   padding: 50px 0 0 0;
   font-size: 40px;
+  color: #E8E8B5;
 }
